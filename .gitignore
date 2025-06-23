@@ -1,0 +1,5 @@
+.venv/
+chrome_selenium_profile/
+User_Data/
+__pycache__/
+*.pyc 

@@ -1,0 +1,3 @@
+from selenium.webdriver.common.by import By
+
+send_button = driver.find_element(By.XPATH, '//button[@data-testid="compose-btn-send"]') 

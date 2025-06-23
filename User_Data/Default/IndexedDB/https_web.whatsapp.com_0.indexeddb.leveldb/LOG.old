@@ -1,0 +1,23 @@
+2025/06/23-12:44:50.583 1081e9 Reusing MANIFEST /Users/yeyo/Documents/cursor/whatsappauto/User_Data/Default/IndexedDB/https_web.whatsapp.com_0.indexeddb.leveldb/MANIFEST-000001
+2025/06/23-12:44:50.585 1081e9 Recovering log #251
+2025/06/23-12:44:50.686 1081e9 Reusing old log /Users/yeyo/Documents/cursor/whatsappauto/User_Data/Default/IndexedDB/https_web.whatsapp.com_0.indexeddb.leveldb/000251.log 
+2025/06/23-12:44:52.754 1081f9 Level-0 table #261: started
+2025/06/23-12:44:52.824 1081f9 Level-0 table #261: 407209 bytes OK
+2025/06/23-12:44:52.858 1081f9 Delete type=0 #251
+2025/06/23-12:44:52.863 1081e9 Manual compaction at level-0 from '\x00#\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00$\x00\x00\x00' @ 0 : 0; will stop at (end)
+2025/06/23-12:44:55.740 1081f9 Compacting 1@1 + 6@2 files
+2025/06/23-12:44:55.992 1081f9 Generated table #262@1: 44072 keys, 2211528 bytes
+2025/06/23-12:44:56.185 1081f9 Generated table #263@1: 17822 keys, 2222011 bytes
+2025/06/23-12:44:56.303 1081f9 Generated table #264@1: 19900 keys, 2277590 bytes
+2025/06/23-12:44:56.442 1081f9 Generated table #265@1: 36665 keys, 2259786 bytes
+2025/06/23-12:44:56.569 1081f9 Generated table #266@1: 32108 keys, 2200860 bytes
+2025/06/23-12:44:56.601 1081f9 Generated table #267@1: 10445 keys, 241593 bytes
+2025/06/23-12:44:56.601 1081f9 Compacted 1@1 + 6@2 files => 11413368 bytes
+2025/06/23-12:44:56.630 1081f9 compacted to: files[ 0 0 6 0 0 0 0 ]
+2025/06/23-12:44:56.631 1081f9 Delete type=2 #261
+2025/06/23-12:44:56.631 1081f9 Delete type=2 #258
+2025/06/23-12:44:56.631 1081f9 Delete type=2 #255
+2025/06/23-12:44:56.631 1081f9 Delete type=2 #254
+2025/06/23-12:44:56.631 1081f9 Delete type=2 #256
+2025/06/23-12:44:56.631 1081f9 Delete type=2 #257
+2025/06/23-12:44:56.631 1081f9 Delete type=2 #253
