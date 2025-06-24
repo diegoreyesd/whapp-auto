@@ -3,14 +3,13 @@ import time
 from selenium import webdriver
 from selenium.webdriver.common.by import By
 from selenium.webdriver.common.keys import Keys
-from selenium.webdriver.chrome.service import Service
 from selenium.webdriver.chrome.options import Options
 import os
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 
-# Ruta al chromedriver
-CHROMEDRIVER_PATH = os.path.join('chromedriver-mac-x64', 'chromedriver')
+# La ruta al chromedriver ya no es necesaria, Selenium la gestionará automáticamente
+# CHROMEDRIVER_PATH = os.path.join('chromedriver-mac-x64', 'chromedriver')
 
 # Leer contactos
 contactos = pd.read_csv('contacts.csv', sep=';', header=None, names=['nombre', 'telefono'])
@@ -19,12 +18,12 @@ mensaje_base = "Hola {nombre}, este es un mensaje personalizado para ti."
 # Configuración de Selenium
 chrome_options = Options()
 chrome_options.add_argument('--user-data-dir=./chrome_selenium_profile')
-# chrome_options.add_argument('--profile-directory=Default')  # No es necesario para un perfil nuevo
-service = Service(CHROMEDRIVER_PATH)
-driver = webdriver.Chrome(service=service, options=chrome_options)
+# El Service ya no se pasa explícitamente
+driver = webdriver.Chrome(options=chrome_options)
 driver.get('https://web.whatsapp.com')
 
-input("Escanea el código QR en WhatsApp Web y presiona Enter aquí cuando estés listo...")
+# Ya no es necesario el input si la sesión se guarda en el perfil
+# input("Escanea el código QR en WhatsApp Web y presiona Enter aquí cuando estés listo...")
 
 time.sleep(5)
 
