@@ -67,6 +67,3 @@ Este proyecto permite enviar mensajes personalizados de WhatsApp a una lista de 
 - No es necesario iniciar sesión en Google, solo en WhatsApp Web.
 - Si cambias de computadora o borras la carpeta de perfil, deberás escanear el QR nuevamente.
 
----
-
-¡Listo! Ahora puedes automatizar el envío de mensajes de WhatsApp de forma sencilla y segura. 
